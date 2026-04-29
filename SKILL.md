@@ -113,8 +113,12 @@ Script auto-fallbacks to another instance if one is down. Default chain:
 | `Connection refused` | Nitter instance down — try another |
 | All instances fail | Check internet / try again later |
 
+## Limitations & Known Issues
+
+- **No following/followers support**: Nitter RSS only provides tweets, NOT following or followers lists. Attempting to fetch `/username/following` returns empty/blocked.
+- **Rate limiting common**: Popular accounts like `elonmusk`, `cryptoethereum` frequently get HTTP 429 from Nitter.
+- Some Nitter instances unreliable: `nitter.1d4.us`, `nitter.mw1w.com` often fail.
+
 ## Notes
 
-- Some popular accounts (elonmusk) are often rate limited
-- 1.5s delay between requests to avoid rate limit
 - No API key required — uses RSS feeds only
