@@ -2,10 +2,10 @@
 name: x-account-monitor
 description: Monitor X/Twitter accounts via RSS using Nitter instances - fetch latest tweets, track viral posts, crypto news from specified accounts. Outputs to JSON for further processing or GitHub sync.
 version: 1.0.0
-author: Rose (Hermes Agent)
+author: X RSS Monitor
 license: MIT
 metadata:
-  hermes:
+  x:
     tags: [X, Twitter, RSS, monitor, crypto, viral]
     related_skills: [xitter, github-auth]
     created: 2026-04-29
