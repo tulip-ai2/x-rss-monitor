@@ -1,0 +1,28 @@
+# =========================================
+# X / Twitter accounts to monitor
+# Format: username (tanpa @)
+# One per line, # untuk comment
+# =========================================
+
+# Example accounts (uncomment/hapus/modify sesuai kebutuhan)
+
+# === Crypto / DeFi ===
+vitalikbuterin
+CryptoEthereum
+binance
+CoinDesk
+TheBlock__
+
+# === AI / Tech ===
+sama
+ylecun
+AndrewYNg
+hwchase17
+
+# === Indonesian / lokal ===
+detikcom
+kompascom
+
+# === Testing ===
+elonmusk
+BillGates
